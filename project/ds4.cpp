@@ -8,7 +8,7 @@
     All methods realisation
 */
 
-//g++ main.cpp -std=c++17 -lpcre    
+//g++ main.cpp ds4.cpp -std=c++17 -lpcre
 uint8_t dualshock4::ds4::ds4_counter = 0;
 
 void dualshock4::ds4::destruct() {

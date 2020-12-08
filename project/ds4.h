@@ -13,6 +13,10 @@ namespace dualshock4 {
 
     class ds4 {
     private:
+        /*
+         * VARIBALS
+         */
+
         // /sys/class/leds/0000:0000:0000.0000:
         std::string led_path;
         // /sys/class/power_supply/sony_controller_battery_00:00:00:00:00:00/capacity
@@ -22,8 +26,8 @@ namespace dualshock4 {
         bool is_connected;
 
         /*
-            FUNCTIONS
-        */
+         * FUNCTIONS
+         */
 
         // get path
         std::string get_path_to_file(std::string regular_expression, int size, std::string directory);
