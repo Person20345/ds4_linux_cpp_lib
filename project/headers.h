@@ -8,17 +8,12 @@
  * There are all header files
 */
 
-/* standart functions */
 #include <iostream>
 #include <fstream>
 #include <string>
-/* functions to get list of files in directory and 
- * find ds4's files */
+#include <thread>
+#include <chrono>
 #include <filesystem>
-// regular expressions
 #include <pcre.h>
-/* other */
-// sleep()
-#include <unistd.h>
 
 #endif 
