@@ -16,5 +16,8 @@ namespace dsll {
     class battery;
 
     class ds4;
+
+    void rgb(ds4 * d);
+    void rgb_thread(std::thread * th, ds4 * dualshock);
 }
 #endif 
