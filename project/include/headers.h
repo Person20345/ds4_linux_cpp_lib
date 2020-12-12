@@ -13,7 +13,15 @@
 #include <string>
 #include <thread>
 #include <chrono>
+#include <mutex>
 #include <filesystem>
 #include <pcre.h>
+
+#include "dsll.h"
+#include "color.h"
+#include "device.h"
+#include "battery.h"
+#include "leds.h"
+#include "ds4.h"
 
 #endif 
